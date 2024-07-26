@@ -1,14 +1,13 @@
-**Fine-Tuned CNNs and Modern Architectures Approach for Accurate Image
-Classification and Object Detection**
+## **Fine-Tuned CNNs and Modern Architectures Approach for Accurate Image Classification and Object Detection**
 
-**<u>Project Overview</u>**
+### **<u>Project Overview</u>**
 
 This project focuses on two primary tasks: image classification and
 object detection, utilizing deep learning techniques. The aim is to
 classify images into specific categories and detect objects within
 images, localizing them with bounding boxes.
 
-**Tasks:**
+### **Tasks:**
 
 1.  Image Classification:
 
@@ -25,7 +24,7 @@ images, localizing them with bounding boxes.
 
     -   Employ Fast RCNN and YOLOv5 architectures for object detection.
 
-**<u>Datasets</u>**
+### **<u>Datasets</u>**
 
 **Image Classification Dataset**:
 
@@ -235,7 +234,7 @@ configuration and parameters of the object detection CNN models.
 </tbody>
 </table>
 
-Experimental results:
+### Experimental results:
 
 **Image classification:** The below table presents the performance score
 of the CNN classifiers.
@@ -372,7 +371,7 @@ different classes, the training model's inability to adequately cover
 the diversity of jetskis, cars, and docks in diverse circumstances, and
 an imbalanced distribution of classes in training data.
 
-**<u>Conclusion</u>**
+### **<u>Conclusion</u>**
 
 The customised VGG19 CNN classifier model when fine-tuned by freezing
 certain convolutional layers and employing dropout techniques
@@ -386,7 +385,7 @@ the application of object localisation and classification on an aerial
 dataset with five classes. The YOLOv5 model shows potential for
 robustness and generalisation improvement.
 
-**Prerequisites**
+### **Prerequisites**
 
 -   Python 3.7+
 
@@ -400,27 +399,7 @@ robustness and generalisation improvement.
 
 -   Jupyter Notebook
 
-**Repository Structure**
-
-|-- notebooks
-
-| |-- DeepLearning\_ImageClassification.ipynb
-
-| |-- DeepLearning\_ObjectDetection.ipynb
-
-|-- report
-
-| |-- Project Report.pdf
-
-|-- dataset
-
-| |-- image\_classification
-
-| |-- object\_detection
-
-|-- requirements.txt
-
-|-- README.md
+### **Repository Structure**
 
 <img src="./attachments/projectreadme/media/image10.png"
 style="width:2.52642in;height:1.51311in"
